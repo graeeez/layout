@@ -1,0 +1,108 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: Arial, sans-serif;
+   font-size: 45px;
+   background: #ffffff;
+ }
+
+ .container {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   color: white;
+   padding: 0 10px;
+   gap: 10px;
+  
+ }
+
+ header,
+ footer {
+   background: #00c2e0;
+   text-align: auto;
+   padding: 20px;
+   font-size: 45px;
+ }
+
+ footer {
+   background: orange;
+ }
+
+ .middle {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex: 1;
+   gap: 10px;
+ }
+
+
+ .left-column {
+   display: flex;
+   flex-direction: column;
+   flex: 1 1 250px;
+   gap: 10px;
+ }
+
+ .hero {
+   background: #d8b6f1;
+   padding: 20px;
+   min-height: 30vh;
+   flex: 1;
+ }
+
+ .sidebar {
+   background: #90c979;
+   padding: 20px;
+   min-height: 50vh;
+   flex: 1;
+ }
+
+ .right-column {
+   display: flex;
+   flex-direction: column;
+   flex: 2 1 400px;
+   gap: 10px;
+ }
+
+ .main-content {
+   background: gold;
+   padding: 20px;
+   min-height: 50vh;
+   flex: 2;
+ }
+
+ .extra-content {
+   background: gray;
+   padding: 20px;
+   min-height: 10vh;
+   flex: 1;
+ }
+
+ .bottom {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 10px;
+ }
+
+ .related-images {
+   background: #1ebc73;
+   flex: 5 1 300px;
+   min-height: 20vh;
+   padding: 20px;
+   width: 60px;
+
+ }
+
+ .related-posts {
+   background: pink;
+   flex: 1 1 150px;
+   min-height: 20vh;
+   padding: 20px;
+
+ }
