@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div class="container">
-      <header>Header</header>
+      <header>Graciella E. Pastoral</header>
 
       <div class="middle">
         <div class="left-column">
@@ -27,7 +27,7 @@ function App() {
         <div class="related-posts">Related Posts</div>
       </div>
 
-      <footer>Footer</footer>
+      <footer>C-PCIT9 IT3A</footer>
     </div>
 
   )
